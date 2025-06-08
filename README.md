@@ -9,7 +9,7 @@ Proyek ini adalah sistem antrian berbasis web yang menggunakan PHP dan MySQL. Si
 ## 📸 Tampilan Aplikasi
 
 ### 1. Halaman Admin
-![Admin](screenshot/admin.png)
+![Admin](screenshoot/admin.png)
 
 ### 2. Halaman Ambil Antrian
 ![Ambil Antrian](screenshot/ambil-antrian.png)
