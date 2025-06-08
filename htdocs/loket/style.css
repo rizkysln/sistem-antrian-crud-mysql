@@ -1,0 +1,229 @@
+:root {
+    --primary-color: #FF6600; /* Warna orange Pos Indonesia */
+    --secondary-color: #1e2c60; /* Warna biru navy untuk tema utama */
+    --light-color: #f8f9fa;
+    --dark-color: #212529;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+/* Header Styles */
+.header {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+    margin-right: 30px;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.location-info {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.clock {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-left: auto;
+}
+
+.logout-btn {
+    margin-left: 20px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 15px;
+    font-weight: 500;
+    transition: all 0.2s;
+}
+
+.logout-btn:hover {
+    background-color: #bb2d3b;
+    transform: translateY(-2px);
+    color: white;
+}
+
+/* Content Styles */
+.panel {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+    border-bottom: 5px solid var(--primary-color);
+}
+
+.panel-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+.panel-icon {
+    color: var(--primary-color);
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.current-number {
+    font-size: 120px;
+    font-weight: 700;
+    text-align: center;
+    margin: 30px 0;
+    color: white;
+    line-height: 1;
+}
+
+.btn-control {
+    margin: 5px;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+.btn-control:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-panggil {
+    background-color: #28a745;
+    border-color: #28a745;
+    color: white;
+}
+
+.btn-panggil:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-lewati {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #212529;
+}
+
+.btn-lewati:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
+.btn-selesai {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+}
+
+.btn-selesai:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.waiting-item {
+    font-size: 20px;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    border-left: 4px solid transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.waiting-item:hover {
+    border-left-color: var(--primary-color);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.stat-card {
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.stat-label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+    .stats-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .current-number {
+        font-size: 80px;
+    }
+    
+    .clock {
+        font-size: 36px;
+    }
+    
+    .panel-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .stats-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .logo {
+        height: 60px;
+        margin-right: 15px;
+    }
+    
+    .header-info h1 {
+        font-size: 18px;
+    }
+    
+    .location-info {
+        font-size: 14px;
+    }
+}

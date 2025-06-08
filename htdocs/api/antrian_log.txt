@@ -1,0 +1,591 @@
+2025-04-27 10:05:22 - Memulai proses ambil antrian
+2025-04-27 10:05:22 - Koneksi database berhasil
+2025-04-27 10:05:22 - Konfigurasi: awalan=A, digit=3, reset_harian=1
+2025-04-27 10:05:22 - Tanggal hari ini: 2025-04-27
+2025-04-27 10:05:22 - Jumlah antrian hari ini: 0
+2025-04-27 10:05:22 - Reset counter, next_number = 1
+2025-04-27 10:05:22 - Nomor antrian yang dibuat: A001
+2025-04-27 10:05:22 - Query insert hasil: berhasil, ID: 2
+2025-04-27 10:05:22 - Response: {"success":true,"nomor":"A001","id":"2","estimasi_tunggu":0,"waktu":"10:05:22"}
+2025-04-27 10:05:26 - Memulai proses ambil antrian
+2025-04-27 10:05:26 - Koneksi database berhasil
+2025-04-27 10:05:26 - Konfigurasi: awalan=A, digit=3, reset_harian=1
+2025-04-27 10:05:26 - Tanggal hari ini: 2025-04-27
+2025-04-27 10:05:26 - Jumlah antrian hari ini: 0
+2025-04-27 10:05:26 - Reset counter, next_number = 1
+2025-04-27 10:05:26 - Nomor antrian yang dibuat: A001
+2025-04-27 10:05:26 - Query insert hasil: berhasil, ID: 3
+2025-04-27 10:05:26 - Response: {"success":true,"nomor":"A001","id":"3","estimasi_tunggu":5,"waktu":"10:05:26"}
+2025-04-27 10:05:29 - Memulai proses ambil antrian
+2025-04-27 10:05:29 - Koneksi database berhasil
+2025-04-27 10:05:29 - Konfigurasi: awalan=A, digit=3, reset_harian=1
+2025-04-27 10:05:29 - Tanggal hari ini: 2025-04-27
+2025-04-27 10:05:29 - Jumlah antrian hari ini: 0
+2025-04-27 10:05:29 - Reset counter, next_number = 1
+2025-04-27 10:05:29 - Nomor antrian yang dibuat: A001
+2025-04-27 10:05:29 - Query insert hasil: berhasil, ID: 4
+2025-04-27 10:05:29 - Response: {"success":true,"nomor":"A001","id":"4","estimasi_tunggu":10,"waktu":"10:05:29"}
+=== [2025-04-27 10:09:32] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 0
+Belum ada antrian hari ini. Nomor pertama.
+Nomor baru: A001 (id: 5), Estimasi: 0 menit
+
+=== [2025-04-27 10:09:38] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 0
+Belum ada antrian hari ini. Nomor pertama.
+Nomor baru: A001 (id: 6), Estimasi: 5 menit
+
+=== [2025-04-27 10:09:41] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 0
+Belum ada antrian hari ini. Nomor pertama.
+Nomor baru: A001 (id: 7), Estimasi: 10 menit
+
+=== [2025-04-27 10:11:20] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 0
+Belum ada antrian hari ini. Nomor pertama.
+Nomor baru: A001 (id: 72), Estimasi: 30 menit
+
+=== [2025-04-27 10:11:41] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 0
+Belum ada antrian hari ini. Nomor pertama.
+Nomor baru: A001 (id: 73), Estimasi: 30 menit
+
+=== [2025-04-27 10:18:58] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 2
+Nomor terakhir hari ini: 1
+Nomor baru: A002 (id: 74), Estimasi: 30 menit
+
+=== [2025-04-27 10:19:00] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 3
+Nomor terakhir hari ini: 2
+Nomor baru: A003 (id: 75), Estimasi: 35 menit
+
+=== [2025-04-27 10:21:23] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 4
+Nomor terakhir hari ini: 3
+Nomor baru: A004 (id: 76), Estimasi: 0 menit
+
+=== [2025-04-27 10:21:27] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 5
+Nomor terakhir hari ini: 4
+Nomor baru: A005 (id: 77), Estimasi: 5 menit
+
+=== [2025-04-27 10:21:29] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 6
+Nomor terakhir hari ini: 5
+Nomor baru: A006 (id: 78), Estimasi: 10 menit
+
+=== [2025-04-27 10:33:26] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 7
+Nomor terakhir hari ini: 6
+Nomor baru: A007 (id: 79), Estimasi: 0 menit
+
+=== [2025-04-27 10:34:05] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 8
+Nomor terakhir hari ini: 7
+Nomor baru: A008 (id: 80), Estimasi: 5 menit
+
+=== [2025-04-27 10:34:08] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 9
+Nomor terakhir hari ini: 8
+Nomor baru: A009 (id: 81), Estimasi: 10 menit
+
+=== [2025-04-27 10:34:11] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 10
+Nomor terakhir hari ini: 9
+Nomor baru: A010 (id: 82), Estimasi: 15 menit
+
+=== [2025-04-27 10:35:17] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 11
+Nomor terakhir hari ini: 10
+Nomor baru: A011 (id: 83), Estimasi: 20 menit
+
+=== [2025-04-29 16:47:46] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 0
+Belum ada antrian hari ini. Nomor pertama.
+Nomor baru: A001 (id: 84), Estimasi: 10 menit
+
+=== [2025-04-29 16:47:49] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 1
+Nomor terakhir hari ini: 1
+Nomor baru: A002 (id: 85), Estimasi: 15 menit
+
+=== [2025-04-29 16:47:53] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 2
+Nomor terakhir hari ini: 2
+Nomor baru: A003 (id: 86), Estimasi: 20 menit
+
+=== [2025-04-29 16:51:13] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 3
+Nomor terakhir hari ini: 3
+Nomor baru: A004 (id: 87), Estimasi: 5 menit
+
+=== [2025-04-30 00:05:44] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 0
+Belum ada antrian hari ini. Nomor pertama.
+Nomor baru: A001 (id: 88), Estimasi: 0 menit
+
+=== [2025-04-30 00:05:48] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 1
+Nomor terakhir hari ini: 1
+Nomor baru: A002 (id: 89), Estimasi: 5 menit
+
+=== [2025-04-30 00:05:51] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 2
+Nomor terakhir hari ini: 2
+Nomor baru: A003 (id: 90), Estimasi: 10 menit
+
+=== [2025-04-30 00:19:24] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 3
+Nomor terakhir hari ini: 3
+Nomor baru: A004 (id: 91), Estimasi: 0 menit
+
+=== [2025-04-30 00:19:26] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 4
+Nomor terakhir hari ini: 4
+Nomor baru: A005 (id: 92), Estimasi: 5 menit
+
+=== [2025-04-30 00:32:38] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 5
+Nomor terakhir hari ini: 5
+Nomor baru: A006 (id: 93), Estimasi: 10 menit
+
+=== [2025-04-30 00:36:45] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 6
+Nomor terakhir hari ini: 6
+Nomor baru: A007 (id: 94), Estimasi: 15 menit
+
+=== [2025-04-30 00:36:50] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 7
+Nomor terakhir hari ini: 7
+Nomor baru: A008 (id: 95), Estimasi: 20 menit
+
+=== [2025-04-30 00:41:23] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 8
+Nomor terakhir hari ini: 8
+Nomor baru: A009 (id: 96), Estimasi: 25 menit
+
+=== [2025-04-30 00:44:50] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 9
+Nomor terakhir hari ini: 9
+Nomor baru: A010 (id: 97), Estimasi: 30 menit
+
+=== [2025-04-30 00:46:48] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 10
+Nomor terakhir hari ini: 10
+Nomor baru: A011 (id: 98), Estimasi: 35 menit
+
+=== [2025-04-30 00:49:21] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 11
+Nomor terakhir hari ini: 11
+Nomor baru: A012 (id: 99), Estimasi: 40 menit
+
+=== [2025-04-30 00:49:44] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 12
+Nomor terakhir hari ini: 12
+Nomor baru: A013 (id: 100), Estimasi: 45 menit
+
+=== [2025-04-30 00:51:00] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 13
+Nomor terakhir hari ini: 13
+Nomor baru: A014 (id: 101), Estimasi: 50 menit
+
+=== [2025-04-30 00:51:28] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 14
+Nomor terakhir hari ini: 14
+Nomor baru: A015 (id: 102), Estimasi: 55 menit
+
+=== [2025-04-30 01:08:30] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 15
+Nomor terakhir hari ini: 15
+Nomor baru: A016 (id: 103), Estimasi: 55 menit
+
+=== [2025-04-30 01:41:57] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 16
+Nomor terakhir hari ini: 16
+Nomor baru: A017 (id: 104), Estimasi: 0 menit
+
+=== [2025-04-30 01:42:01] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 17
+Nomor terakhir hari ini: 17
+Nomor baru: A018 (id: 105), Estimasi: 5 menit
+
+=== [2025-04-30 01:42:04] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 18
+Nomor terakhir hari ini: 18
+Nomor baru: A019 (id: 106), Estimasi: 10 menit
+
+=== [2025-04-30 01:42:08] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 19
+Nomor terakhir hari ini: 19
+Nomor baru: A020 (id: 107), Estimasi: 15 menit
+
+=== [2025-04-30 02:27:00] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 20
+Nomor terakhir hari ini: 20
+Nomor baru: A021 (id: 108), Estimasi: 5 menit
+
+=== [2025-04-30 02:27:03] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 21
+Nomor terakhir hari ini: 21
+Nomor baru: A022 (id: 109), Estimasi: 10 menit
+
+=== [2025-04-30 02:27:39] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 22
+Nomor terakhir hari ini: 22
+Nomor baru: A023 (id: 110), Estimasi: 15 menit
+
+=== [2025-04-30 02:30:54] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 23
+Nomor terakhir hari ini: 23
+Nomor baru: A024 (id: 111), Estimasi: 0 menit
+
+=== [2025-04-30 22:49:40] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 24
+Nomor terakhir hari ini: 24
+Nomor baru: A025 (id: 112), Estimasi: 0 menit
+
+=== [2025-04-30 22:49:57] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 25
+Nomor terakhir hari ini: 25
+Nomor baru: A026 (id: 113), Estimasi: 5 menit
+
+=== [2025-04-30 22:51:57] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 26
+Nomor terakhir hari ini: 26
+Nomor baru: A027 (id: 114), Estimasi: 10 menit
+
+=== [2025-04-30 22:52:41] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 27
+Nomor terakhir hari ini: 27
+Nomor baru: A028 (id: 115), Estimasi: 15 menit
+
+=== [2025-04-30 22:52:45] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 28
+Nomor terakhir hari ini: 28
+Nomor baru: A029 (id: 116), Estimasi: 20 menit
+
+=== [2025-04-30 22:52:49] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 29
+Nomor terakhir hari ini: 29
+Nomor baru: A030 (id: 117), Estimasi: 25 menit
+
+=== [2025-04-30 22:53:47] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 30
+Nomor terakhir hari ini: 30
+Nomor baru: A031 (id: 118), Estimasi: 30 menit
+
+=== [2025-05-02 08:28:31] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 0
+Belum ada antrian hari ini. Nomor pertama.
+Nomor baru: A001 (id: 119), Estimasi: 35 menit
+
+=== [2025-05-03 20:32:39] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 0
+Belum ada antrian hari ini. Nomor pertama.
+Nomor baru: A001 (id: 120), Estimasi: 0 menit
+
+=== [2025-05-03 20:32:44] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 1
+Nomor terakhir hari ini: 1
+Nomor baru: A002 (id: 121), Estimasi: 5 menit
+
+=== [2025-05-03 20:32:47] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 2
+Nomor terakhir hari ini: 2
+Nomor baru: A003 (id: 122), Estimasi: 10 menit
+
+=== [2025-05-03 20:32:50] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 3
+Nomor terakhir hari ini: 3
+Nomor baru: A004 (id: 123), Estimasi: 15 menit
+
+=== [2025-05-03 20:32:53] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 4
+Nomor terakhir hari ini: 4
+Nomor baru: A005 (id: 124), Estimasi: 20 menit
+
+=== [2025-05-03 20:34:50] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 5
+Nomor terakhir hari ini: 5
+Nomor baru: A006 (id: 125), Estimasi: 5 menit
+
+=== [2025-05-03 20:34:54] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 6
+Nomor terakhir hari ini: 6
+Nomor baru: A007 (id: 126), Estimasi: 10 menit
+
+=== [2025-05-03 20:39:00] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 7
+Nomor terakhir hari ini: 7
+Nomor baru: A008 (id: 127), Estimasi: 5 menit
+
+=== [2025-05-04 19:16:31] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 0
+Belum ada antrian hari ini. Nomor pertama.
+Nomor baru: A001 (id: 128), Estimasi: 10 menit
+
+=== [2025-05-04 19:58:27] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 1
+Nomor terakhir hari ini: 1
+Nomor baru: A002 (id: 129), Estimasi: 15 menit
+
+=== [2025-05-04 19:58:50] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 2
+Nomor terakhir hari ini: 2
+Nomor baru: A003 (id: 130), Estimasi: 20 menit
+
+=== [2025-05-04 20:01:07] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 3
+Nomor terakhir hari ini: 3
+Nomor baru: A004 (id: 131), Estimasi: 25 menit
+
+=== [2025-05-04 20:06:41] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 4
+Nomor terakhir hari ini: 4
+Nomor baru: A005 (id: 132), Estimasi: 0 menit
+
+=== [2025-05-04 20:07:43] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 5
+Nomor terakhir hari ini: 5
+Nomor baru: A006 (id: 133), Estimasi: 5 menit
+
+=== [2025-05-04 20:09:02] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 6
+Nomor terakhir hari ini: 6
+Nomor baru: A007 (id: 134), Estimasi: 0 menit
+
+=== [2025-05-04 20:09:06] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 7
+Nomor terakhir hari ini: 7
+Nomor baru: A008 (id: 135), Estimasi: 5 menit
+
+=== [2025-05-04 20:09:10] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 8
+Nomor terakhir hari ini: 8
+Nomor baru: A009 (id: 136), Estimasi: 10 menit
+
+=== [2025-05-04 20:09:16] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 9
+Nomor terakhir hari ini: 9
+Nomor baru: A010 (id: 137), Estimasi: 15 menit
+
+=== [2025-05-04 20:09:22] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 10
+Nomor terakhir hari ini: 10
+Nomor baru: A011 (id: 138), Estimasi: 20 menit
+
+=== [2025-05-04 20:13:01] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 11
+Nomor terakhir hari ini: 11
+Nomor baru: A012 (id: 139), Estimasi: 25 menit
+
+=== [2025-05-04 20:20:41] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 12
+Nomor terakhir hari ini: 12
+Nomor baru: A013 (id: 140), Estimasi: 0 menit
+
+=== [2025-05-04 20:21:07] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 13
+Nomor terakhir hari ini: 13
+Nomor baru: A014 (id: 141), Estimasi: 5 menit
+
+=== [2025-05-05 17:01:55] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 0
+Belum ada antrian hari ini. Nomor pertama.
+Nomor baru: A001 (id: 142), Estimasi: 0 menit
+
+=== [2025-05-05 17:02:56] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 1
+Nomor terakhir hari ini: 1
+Nomor baru: A002 (id: 143), Estimasi: 0 menit
+
+=== [2025-05-05 17:04:09] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 2
+Nomor terakhir hari ini: 2
+Nomor baru: A003 (id: 144), Estimasi: 0 menit
+
+=== [2025-05-06 19:50:54] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 0
+Belum ada antrian hari ini. Nomor pertama.
+Nomor baru: A001 (id: 145), Estimasi: 0 menit
+
+=== [2025-05-06 19:51:27] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 1
+Nomor terakhir hari ini: 1
+Nomor baru: A002 (id: 146), Estimasi: 5 menit
+
+=== [2025-05-06 19:51:30] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 2
+Nomor terakhir hari ini: 2
+Nomor baru: A003 (id: 147), Estimasi: 10 menit
+
+=== [2025-05-07 08:58:07] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 0
+Belum ada antrian hari ini. Nomor pertama.
+Nomor baru: A001 (id: 148), Estimasi: 15 menit
+
+=== [2025-05-11 07:04:06] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 0
+Belum ada antrian hari ini. Nomor pertama.
+Nomor baru: A001 (id: 149), Estimasi: 20 menit
+
+=== [2025-05-18 08:39:11] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 0
+Belum ada antrian hari ini. Nomor pertama.
+Nomor baru: A001 (id: 150), Estimasi: 0 menit
+
+=== [2025-05-18 08:39:14] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 1
+Nomor terakhir hari ini: 1
+Nomor baru: A002 (id: 151), Estimasi: 5 menit
+
+=== [2025-05-18 09:12:03] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 2
+Nomor terakhir hari ini: 2
+Nomor baru: A003 (id: 152), Estimasi: 0 menit
+
+=== [2025-05-18 21:35:12] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 3
+Nomor terakhir hari ini: 3
+Nomor baru: A004 (id: 153), Estimasi: 5 menit
+
+=== [2025-05-18 21:35:15] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 4
+Nomor terakhir hari ini: 4
+Nomor baru: A005 (id: 154), Estimasi: 10 menit
+
+=== [2025-05-23 11:49:00] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 0
+Belum ada antrian hari ini. Nomor pertama.
+Nomor baru: A001 (id: 155), Estimasi: 0 menit
+
+=== [2025-05-23 11:49:02] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 1
+Nomor terakhir hari ini: 1
+Nomor baru: A002 (id: 156), Estimasi: 5 menit
+
+=== [2025-05-23 11:49:03] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 2
+Nomor terakhir hari ini: 2
+Nomor baru: A003 (id: 157), Estimasi: 10 menit
+
+=== [2025-05-23 11:52:27] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","reset_harian":"true","digit_antrian":"3"}
+Jumlah antrian hari ini: 3
+Nomor terakhir hari ini: 3
+Nomor baru: A004 (id: 158), Estimasi: 15 menit
+
+=== [2025-05-23 12:02:40] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","digit_antrian":"3","reset_harian":"true"}
+Jumlah antrian hari ini: 0
+Belum ada antrian hari ini. Nomor pertama.
+Nomor baru: A001 (id: 1), Estimasi: 0 menit
+
+=== [2025-05-23 12:02:42] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","digit_antrian":"3","reset_harian":"true"}
+Jumlah antrian hari ini: 1
+Nomor terakhir hari ini: 1
+Nomor baru: A002 (id: 2), Estimasi: 5 menit
+
+=== [2025-05-23 12:02:44] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","digit_antrian":"3","reset_harian":"true"}
+Jumlah antrian hari ini: 2
+Nomor terakhir hari ini: 2
+Nomor baru: A003 (id: 3), Estimasi: 10 menit
+
+=== [2025-05-23 12:02:45] Mulai Ambil Nomor ===
+Konfigurasi: {"awalan_antrian":"A","digit_antrian":"3","reset_harian":"true"}
+Jumlah antrian hari ini: 3
+Nomor terakhir hari ini: 3
+Nomor baru: A004 (id: 4), Estimasi: 15 menit
+

@@ -1,0 +1,468 @@
+/* General Body Styles */
+body {
+    background-color: #f8f9fa;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Login Page Styles */
+.login-body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    margin: 0;
+}
+
+.login-container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.login-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0d6efd;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 8px;
+}
+
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #e9ecef;
+    padding: 12px 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.btn-login {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #0d6efd, #0056b3);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-login:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(13, 110, 253, 0.4);
+}
+
+.error-message {
+    color: #dc3545;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Main Dashboard Styles */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+.card-header {
+    background: linear-gradient(45deg, #0d6efd, #0056b3);
+    color: white;
+    font-weight: bold;
+    border-radius: 12px 12px 0 0 !important;
+    padding: 18px 25px;
+    border: none;
+    font-size: 16px;
+}
+
+.card-header i {
+    margin-right: 8px;
+}
+
+.card-body {
+    padding: 25px;
+    background-color: #ffffff;
+}
+
+/* Statistics Cards */
+.stat-card {
+    text-align: center;
+    padding: 25px 15px;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #ffffff, #f8f9fa);
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.stat-number {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #0d6efd;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stat-title {
+    font-size: 14px;
+    color: #6c757d;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Table Styles */
+.table {
+    margin-bottom: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead th {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+    font-weight: 600;
+    color: #495057;
+    padding: 15px 12px;
+}
+
+.table tbody td {
+    padding: 12px;
+    vertical-align: middle;
+    border-top: 1px solid #f1f3f4;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0,0,0,0.02);
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #0d6efd, #0056b3);
+}
+
+.btn-success {
+    background: linear-gradient(45deg, #198754, #146c43);
+}
+
+.btn-warning {
+    background: linear-gradient(45deg, #ffc107, #e0a800);
+    color: #000;
+}
+
+.btn-danger {
+    background: linear-gradient(45deg, #dc3545, #bb2d3b);
+}
+
+.btn-sm {
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+/* Badge Styles */
+.badge {
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+/* Alert Styles */
+.alert {
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 20px;
+    font-weight: 500;
+}
+
+.alert-info {
+    background: linear-gradient(45deg, #d1ecf1, #bee5eb);
+    color: #0c5460;
+}
+
+/* Logout Link */
+.logout-link {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.logout-link:hover {
+    background-color: rgba(255,255,255,0.1);
+    text-decoration: none;
+    color: #f8f9fa;
+    transform: translateY(-1px);
+}
+
+/* Form Styles */
+.form-label {
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 8px;
+}
+
+.form-control, .form-select {
+    border-radius: 6px;
+    border: 2px solid #e9ecef;
+    padding: 10px 12px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.15);
+}
+
+.form-text {
+    font-size: 12px;
+    color: #6c757d;
+    margin-top: 5px;
+}
+
+.form-check-input {
+    margin-top: 0.25rem;
+}
+
+.form-check-label {
+    font-weight: 500;
+    color: #495057;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding: 20px 0;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .login-container {
+        padding: 30px 20px;
+        margin: 20px;
+    }
+    
+    .card-body {
+        padding: 20px 15px;
+    }
+    
+    .stat-card {
+        padding: 20px 10px;
+        margin: 2px;
+    }
+    
+    .stat-number {
+        font-size: 28px;
+    }
+    
+    .navbar-brand {
+        font-size: 18px;
+    }
+    
+    .table-responsive {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 0 10px;
+    }
+    
+    .col-md-6 {
+        margin-bottom: 20px;
+    }
+    
+    .stat-card {
+        padding: 15px 8px;
+    }
+    
+    .stat-number {
+        font-size: 24px;
+    }
+    
+    .btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+/* Animation for loading states */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    80% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Apply animations */
+.card {
+    animation: fadeIn 0.6s ease-out;
+}
+
+.alert {
+    animation: slideIn 0.5s ease-out;
+}
+
+.stat-number {
+    animation: bounce 2s infinite;
+}
+
+/* Loading spinner */
+.loading-spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #0d6efd;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Hover effects for interactive elements */
+.table tbody tr {
+    transition: all 0.3s ease;
+}
+
+.table tbody tr:hover {
+    background-color: rgba(13, 110, 253, 0.05);
+    transform: scale(1.01);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Print styles */
+@media print {
+    .navbar,
+    .btn,
+    .alert {
+        display: none !important;
+    }
+    
+    .card {
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+    
+    body {
+        background-color: white;
+        padding: 0;
+    }
+}

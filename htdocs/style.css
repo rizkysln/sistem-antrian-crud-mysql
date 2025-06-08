@@ -1,0 +1,480 @@
+:root {
+    --primary-color: #4361ee;
+    --secondary-color: #3a0ca3;
+    --accent-color: #4cc9f0;
+    --light-color: #f8f9fa;
+    --dark-color: #212529;
+    --success-color: #38b000;
+    --service-a-color: #4361ee;
+    --service-b-color: #38b000;
+    --service-c-color: #f8961e;
+}
+
+body {
+    background: linear-gradient(135deg, #f5f7ff 0%, #e4ecff 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.main-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.ticket-container {
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 24px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background: radial-gradient(circle, transparent, transparent 12px, white 13px);
+    background-size: 40px 40px;
+    background-position: center bottom;
+    z-index: 1;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+.content {
+    padding: 30px 24px;
+    text-align: center;
+}
+
+.service-options {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.service-options h5 {
+    color: var(--dark-color);
+    font-weight: 600;
+}
+
+.btn-group-vertical {
+    gap: 10px;
+}
+
+.service-btn {
+    border-radius: 10px !important;
+    padding: 12px;
+    text-align: left;
+    transition: all 0.3s;
+    border: 2px solid;
+}
+
+.service-btn.active {
+    color: white !important;
+}
+
+.service-btn[data-service="A"] {
+    border-color: var(--service-a-color);
+    color: var(--service-a-color);
+}
+
+.service-btn[data-service="A"].active {
+    background-color: var(--service-a-color);
+}
+
+.service-btn[data-service="B"] {
+    border-color: var(--service-b-color);
+    color: var(--service-b-color);
+}
+
+.service-btn[data-service="B"].active {
+    background-color: var(--service-b-color);
+}
+
+.service-btn[data-service="C"] {
+    border-color: var(--service-c-color);
+    color: var(--service-c-color);
+}
+
+.service-btn[data-service="C"].active {
+    background-color: var(--service-c-color);
+}
+
+.service-btn i {
+    width: 20px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.take-number-btn {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(67, 97, 238, 0.3);
+    transition: all 0.3s;
+    width: 100%;
+    max-width: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.take-number-btn:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 15px 25px rgba(67, 97, 238, 0.4);
+}
+
+.take-number-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 5px 15px rgba(67, 97, 238, 0.4);
+}
+
+.ticket {
+    position: relative;
+    margin: 10px auto;
+    max-width: 300px;
+    display: none;
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.ticket-inner {
+    border: 2px dashed var(--service-a-color);
+    padding: 24px 20px;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+    position: relative;
+    transition: border-color 0.3s;
+}
+
+.ticket-inner.service-a {
+    border-color: var(--service-a-color);
+}
+
+.ticket-inner.service-b {
+    border-color: var(--service-b-color);
+}
+
+.ticket-inner.service-c {
+    border-color: var(--service-c-color);
+}
+
+.ticket-inner::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: var(--light-color);
+    border-radius: 50%;
+    border: 2px dashed;
+    z-index: 2;
+}
+
+.service-a::before {
+    border-color: var(--service-a-color);
+}
+
+.service-b::before {
+    border-color: var(--service-b-color);
+}
+
+.service-c::before {
+    border-color: var(--service-c-color);
+}
+
+.ticket-inner::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    background-color: var(--light-color);
+    border-radius: 50%;
+    border: 2px dashed;
+    z-index: 2;
+}
+
+.service-a::after {
+    border-color: var(--service-a-color);
+}
+
+.service-b::after {
+    border-color: var(--service-b-color);
+}
+
+.service-c::after {
+    border-color: var(--service-c-color);
+}
+
+.ticket-header {
+    color: var(--service-a-color);
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 15px;
+    transition: color 0.3s;
+}
+
+.service-a .ticket-header {
+    color: var(--service-a-color);
+}
+
+.service-b .ticket-header {
+    color: var(--service-b-color);
+}
+
+.service-c .ticket-header {
+    color: var(--service-c-color);
+}
+
+.ticket-number {
+    font-size: 60px;
+    line-height: 1;
+    font-weight: 700;
+    color: var(--dark-color);
+    margin: 10px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-date {
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.waiting-info {
+    margin: 20px 0 15px;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-a .waiting-info {
+    color: var(--service-a-color);
+}
+
+.service-b .waiting-info {
+    color: var(--service-b-color);
+}
+
+.service-c .waiting-info {
+    color: var(--service-c-color);
+}
+
+.waiting-info i {
+    margin-right: 8px;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    border-radius: 50px;
+    padding: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+}
+
+.btn i {
+    margin-right: 8px;
+}
+
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #dee2e6;
+}
+
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+
+/* Ticket animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.02);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+/* Loading animation */
+.spinner {
+    margin-right: 8px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Toast notification */
+.toast-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.toast {
+    background-color: white;
+    border-left: 4px solid var(--primary-color);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    animation: slideIn 0.3s;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.toast i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.toast.success {
+    border-left-color: var(--success-color);
+}
+
+.toast.success i {
+    color: var(--success-color);
+}
+
+.toast.error {
+    border-left-color: #d90429;
+}
+
+.toast.error i {
+    color: #d90429;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .main-container {
+        padding: 10px;
+    }
+
+    .header {
+        padding: 20px 15px;
+    }
+
+    .content {
+        padding: 25px 15px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    .ticket-number {
+        font-size: 52px;
+    }
+
+    .ticket-header {
+        font-size: 14px;
+    }
+
+    .action-buttons {
+        width: 100%;
+    }
+}
