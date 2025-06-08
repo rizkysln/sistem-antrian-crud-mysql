@@ -12,16 +12,16 @@ Proyek ini adalah sistem antrian berbasis web yang menggunakan PHP dan MySQL. Si
 ![Admin](screenshoot/admin.png)
 
 ### 2. Halaman Ambil Antrian
-![Ambil Antrian](screenshot/ambil-antrian.png)
+![Ambil Antrian](screenshoot/ambil-antrian.png)
 
 ### 3. Halaman Display Antrian
-![Display](screenshot/display.png)
+![Display](screenshoot/display.png)
 
 ### 4. Login Loket
-![Login Loket](screenshot/login-loket.png)
+![Login Loket](screenshoot/login-loket.png)
 
 ### 5. Halaman Loket
-![Loket](screenshot/loket.png)
+![Loket](screenshoot/loket.png)
 
 
 ## ⚙️ Teknologi yang Digunakan
