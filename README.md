@@ -23,6 +23,7 @@ Proyek ini adalah sistem antrian berbasis web yang menggunakan PHP dan MySQL. Si
 ### 5. Halaman Loket
 ![Loket](screenshot/loket.png)
 
+
 ## ⚙️ Teknologi yang Digunakan
 - PHP Native
 - MySQL
