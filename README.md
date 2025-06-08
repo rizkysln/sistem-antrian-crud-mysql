@@ -31,13 +31,13 @@ Proyek ini adalah sistem antrian berbasis web yang menggunakan PHP dan MySQL. Si
 - JavaScript
 
 ## 📂 Struktur Folder Penting
-- `/screenshot`: berisi gambar tampilan aplikasi
 - `/admin`: halaman untuk admin mengelola data
 - `/loket`: halaman untuk petugas loket
 - `/display`: halaman layar display antrian
+- index.php
 
 ## 🧑‍💻 Author
-- Rizky Ramadhan Hasan Lubis ([@rizkysln](https://github.com/rizkysln))
+- Rizkysln_ ([@rizkysln](https://github.com/rizkysln))
 
 ---
 
